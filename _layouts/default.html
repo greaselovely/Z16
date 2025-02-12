@@ -33,10 +33,10 @@
           {{ content }}
           <ul class="posts">
             {% for post in site.posts %}
-              <li>
+              <ul>
                 <!-- <span class="post-date">{{ post.date | date: "%Y-%m-%d" }}</span><br> -->
                 <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-              </li>
+              </ul>
             {% endfor %}
           </ul>
         </section>
