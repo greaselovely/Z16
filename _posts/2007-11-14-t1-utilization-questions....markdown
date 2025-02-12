@@ -11,7 +11,7 @@ Here's what I had; a Crisco 1720, a Juniper J2300, one laptop (WinXP) and one de
 
 Both T1 interfaces are configured with the IP's shown in the diagram, and encapsulation set to PPP.
 
-![Test Network Image](/images/1.jpg "Test Network")
+![Test Network Image]({{ site.baseurl }}/images/1.jpg "Test Network")
 
 
 
@@ -21,11 +21,11 @@ The graphs below shows traffic utilization while a FTP transfer of a 593+ MB ISO
 
 
 
-![Juniper](/images/2300-1.jpg "Juniper")
+![Juniper]({{ site.baseurl }}/images/2300-1.jpg "Juniper")
 
 Juniper J2300
 
-![Crisco](/images/1720-1.jpg "Crisco")
+![Crisco]({{ site.baseurl }}/images/1720-1.jpg "Crisco")
 
 Crisco 1720
 
@@ -33,21 +33,21 @@ The second set of graphs show our next test. We opened a FTP session to each mac
 
 
 
-![Juniper](/images/2300-2.jpg "Juniper")
+![Juniper]({{ site.baseurl }}/images/2300-2.jpg "Juniper")
 
 Juniper J2300
 
-![Crisco](/images/1720-2.jpg "Crisco")
+![Crisco]({{ site.baseurl }}/images/1720-2.jpg "Crisco")
 
 Crisco 1720
 
 And the test went as expected, which is to see 100% utilization bidirectionally. Note (on the close up images) the difference between the first transfer and the second transfer. You can clearly see the input and the output lines not match during the first transfer and then match on the second.
 
-![Juniper](/images/Closeup-2300-2.jpg "Juniper")
+![Juniper]({{ site.baseurl }}/images/Closeup-2300-2.jpg "Juniper")
 
 Juniper J2300
 
-![Crisco](/images/Closeup-1720-2.jpg "Crisco")
+![Crisco]({{ site.baseurl }}/images/Closeup-1720-2.jpg "Crisco")
 
 Crisco 1720
 
