@@ -20,7 +20,6 @@ The blades are seperated and the slot covers removed to provide space between ea
 
 
 
-
 Ultimately, this table cost us a whole $3.50. I didn't buy the glass, chess set, or the switch. Not a bad deal I'd say.
 
 
