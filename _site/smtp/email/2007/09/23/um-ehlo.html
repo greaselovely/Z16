@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <title>Um, EHLO?!</title>
+    <meta name="viewport" content="width=device-width"/>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1"/>
+    
+    <!-- Use relative_url filter so paths work in GitHub Pages -->
+    <link rel="stylesheet" href="/styles/main.css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL,GRAD@48,400,1,0"/>
+    <script src="/scripts/theme.js"></script>
+
+    <link rel="icon" href="/images/favicon.ico" type="image/x-icon"/>
+    <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon"/>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1><a href="/"><img src="/images/pancakes.png" alt="pancake"></a> Shayne Sivley</h1>
+        <p>Welcome to PANW Cakes</p>
+        <p>Cyberecurity, Automation, and Cakes</p>
+        <p>The Cake is a Lie</p>
+        <p class="view">
+          <a href="https://github.com/greaselovely/" target="_blank"> View my Projects on GitHub <small>greaselovely</small></a>
+          <a href="http://kineticlull.com/" target="_blank"> My External Dynamic List Manager <small>KineticLull</small></a>
+        </p>
+      </header>
+      
+      <!-- Main content area where individual page content will be injected -->
+      <main>
+        <section>
+          <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Um, EHLO?!</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2007-09-23T14:45:14-06:00" itemprop="datePublished">Sep 23, 2007
+      </time></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <p>So, I have to say what a drag it is to have 20+ .pst files from an Exchange 2000 server and having no way to import said .pst files at the server level into Exchange 2007.</p>
+
+<p>Oh yes, I’m well aware of the SP1 option for the &lt;!@%^%$#&gt; Import-Mailbox Powershell command syntax, but, I’m also aware that SP1 is not yet out of beta. And even if it was today, it wouldn’t have helped me 10 days ago.</p>
+
+<p>Here’s the situation. I’m in the middle of trying to migrate a small organization over from Windows 2000 DC’s and Exchange 2000 to Windows Server 2003 + Exchange 2007, I run into what I am still dwelling on, no .pst import option.</p>
+
+<p>Well, the two biggest problems / pain in the &lt;!@%^%$#&gt; on this project was the fact that 1) Active Directory has inconsistencies 2) Exchange 2000 is installed on a Domain Controller.</p>
+
+<p>Now, what’s the problem with that?</p>
+
+<p>I can’t ADPREP Active Directory with inconsistencies that are not easily resolved. But, for fun let’s say I did. Ok, cool, so now I have a Windows 2000 domain that I can put a Windows Server 2003 server as a DC (but remember I can’t). And let’s say I get 2003 running AD, I can’t install Exchange 2007 until I remove the Windows 2000 DC’s (Exchange 2007 has to have 2003 DC’s -only- due to schema updates). I can’t successfully DCPROMO a server that is also running Exchange 2000 without it breaking Exchange upon reboot. Basically, security will be modified on the server running Exchange 2000 to a point that the services won’t start thus the information store won’t mount. So, sure, I can get the Windows 2000 DC’s off so that I can install Exchange 2007 (even if I were to get the AD inconsistencies fixed), but if I can’t get Exchange 2000 database to mount, then I can’t move mailboxes over, so WTF is the point?</p>
+
+<p>Yeah, so this was my dilemma a couple of weeks ago. What to do. Well, the amount of work trying to fix things and to try and get Exchange 2000 running were ridiculous to the point that I might as well just do a full blown migration. There were other stupid problems on this network anyway, so this was the shortest path of least resistance.</p>
+
+<p>A simple Exmerge from Exchange 2000 provided me the .pst’s and then I went to do the research on how to get them back into the new server. And to my sarcastic delight, left with no way to do so except for sitting at each machine. Blech.</p>
+
+<p>And while I’m severely disappointed in how Exchange 2007 works so far, I’m stuck with it. And not a usual basher of Microsoft, in fact, I like the &lt;!@%^%$#&gt;. But the additional work created during the migration because of the lack of ability to import mailboxes into the new information store was a true pain in my &lt;!@%^%$#&gt;.</p>
+
+<hr />
+
+<p>Other Posts You May Want To Cover in Syrup:</p>
+
+  </div><a class="u-url" href="/smtp/email/2007/09/23/um-ehlo.html" hidden></a>
+</article>
+
+          <ul class="posts">
+            
+              <li>
+                <!-- <span class="post-date">2009-07-08</span><br> -->
+                <a href="/microsoft/windows/2009/07/08/windows-home-dir-gone-wild.html">Home Directories Gone Wild</a>
+              </li>
+            
+              <li>
+                <!-- <span class="post-date">2009-05-05</span><br> -->
+                <a href="/juniper/netscreen/2009/05/05/screenos-oids-for-cpu-and-sessions.html">ScreenOS OIDs for CPU and Sessions</a>
+              </li>
+            
+              <li>
+                <!-- <span class="post-date">2008-06-19</span><br> -->
+                <a href="/random/2008/06/19/devaluation-of-technical-certifications-in-progress.html">Devaluation of Technical Certifications In Progress</a>
+              </li>
+            
+              <li>
+                <!-- <span class="post-date">2008-02-26</span><br> -->
+                <a href="/switch/2008/02/26/entry-level-switch-throughput-comparison.html">Entry Level Switch Throughput Comparison</a>
+              </li>
+            
+              <li>
+                <!-- <span class="post-date">2007-11-13</span><br> -->
+                <a href="/blog/2007/11/13/t1-utilization-questions.html">T1 Utilization Questions...</a>
+              </li>
+            
+              <li>
+                <!-- <span class="post-date">2007-11-08</span><br> -->
+                <a href="/crisco/2007/11/08/cisco-catalyst-5509-coffee-table.html">Cisco Catalyst 5509 Coffee Table</a>
+              </li>
+            
+              <li>
+                <!-- <span class="post-date">2007-09-24</span><br> -->
+                <a href="/juniper/netscreen/2007/09/24/juniper-netscreen-dual-wan.html">NetScreen SSG 20 Dual WAN</a>
+              </li>
+            
+              <li>
+                <!-- <span class="post-date">2007-09-23</span><br> -->
+                <a href="/smtp/email/2007/09/23/um-ehlo.html">Um, EHLO?!</a>
+              </li>
+            
+          </ul>
+        </section>
+      </main>
+      <footer>
+        <p>
+          <button class="material-symbols-sharp" id="theme-toggle" title="Toggle dark mode" onclick="toggleDarkMode()"></button>
+        </p>
+      </footer>
+    </div>
+    
+    <script src="/scripts/scale.fix.js"></script>
+  </body>
+</html>

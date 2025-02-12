@@ -1,0 +1,32 @@
+---
+layout: post
+title: "Um, EHLO?!"
+date: 2007-09-23 14:45:14 -0600
+categories: SMTP Email
+---
+
+ So, I have to say what a drag it is to have 20+ .pst files from an Exchange 2000 server and having no way to import said .pst files at the server level into Exchange 2007.
+
+Oh yes, I'm well aware of the SP1 option for the <!@%^%$#> Import-Mailbox Powershell command syntax, but, I'm also aware that SP1 is not yet out of beta. And even if it was today, it wouldn't have helped me 10 days ago.
+
+Here's the situation. I'm in the middle of trying to migrate a small organization over from Windows 2000 DC's and Exchange 2000 to Windows Server 2003 + Exchange 2007, I run into what I am still dwelling on, no .pst import option.
+
+Well, the two biggest problems / pain in the <!@%^%$#> on this project was the fact that 1) Active Directory has inconsistencies 2) Exchange 2000 is installed on a Domain Controller.
+
+Now, what's the problem with that?
+
+I can't ADPREP Active Directory with inconsistencies that are not easily resolved. But, for fun let's say I did. Ok, cool, so now I have a Windows 2000 domain that I can put a Windows Server 2003 server as a DC (but remember I can't). And let's say I get 2003 running AD, I can't install Exchange 2007 until I remove the Windows 2000 DC's (Exchange 2007 has to have 2003 DC's -only- due to schema updates). I can't successfully DCPROMO a server that is also running Exchange 2000 without it breaking Exchange upon reboot. Basically, security will be modified on the server running Exchange 2000 to a point that the services won't start thus the information store won't mount. So, sure, I can get the Windows 2000 DC's off so that I can install Exchange 2007 (even if I were to get the AD inconsistencies fixed), but if I can't get Exchange 2000 database to mount, then I can't move mailboxes over, so WTF is the point?
+
+Yeah, so this was my dilemma a couple of weeks ago. What to do. Well, the amount of work trying to fix things and to try and get Exchange 2000 running were ridiculous to the point that I might as well just do a full blown migration. There were other stupid problems on this network anyway, so this was the shortest path of least resistance.
+
+A simple Exmerge from Exchange 2000 provided me the .pst's and then I went to do the research on how to get them back into the new server. And to my sarcastic delight, left with no way to do so except for sitting at each machine. Blech.
+
+And while I'm severely disappointed in how Exchange 2007 works so far, I'm stuck with it. And not a usual basher of Microsoft, in fact, I like the <!@%^%$#>. But the additional work created during the migration because of the lack of ability to import mailboxes into the new information store was a true pain in my <!@%^%$#>. 
+
+
+
+
+---
+
+
+Other Posts You May Want To Cover in Syrup:
