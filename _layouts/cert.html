@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>{{ site.title }}</title>
+    <meta name="viewport" content="width=device-width" />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <!-- Use relative_url filter so paths work in GitHub Pages -->
+    <link rel="stylesheet" href="{{ '/styles/main.css' | relative_url }}" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL,GRAD@48,400,1,0" />
+    <script src="{{ '/scripts/theme.js' | relative_url }}"></script>
+    <link rel="icon" href="{{ '/images/favicon.ico' | relative_url }}" type="image/x-icon" />
+    <link rel="shortcut icon" href="{{ '/images/favicon.ico' | relative_url }}" type="image/x-icon" />
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <h1><a href="{{ '/' | absolute_url }}"><img src="{{ '/images/pancakes.png' | relative_url }}"
+                        alt="pancake"></a> {{ site.my_name }}</h1>
+            <p>Welcome to {{ site.title }}</p>
+            <p>{{ site.things_i_do }}</p>
+            <p>{{ site.punchline }}</p>
+            <p class="view">
+                <a href="https://github.com/greaselovely/" target="_blank"> View my Projects on GitHub
+                    <small>greaselovely</small></a>
+                <a href="http://kineticlull.com/" target="_blank"> My External Dynamic List Manager
+                    <small>KineticLull</small></a>
+                <a href="{{ '/certs' | relative_url }}">My Certificates</a>
+            </p>
+        </header>
+        <!-- Main content area where individual page content will be injected -->
+        <main>
+            <section>
+                {{ content }}
+            </section>
+        </main>
+        <footer>
+            <p>
+                <button class="material-symbols-sharp" id="theme-toggle" title="Toggle dark mode"
+                    onclick="toggleDarkMode()"></button>
+            </p>
+        </footer>
+    </div>
+    <script src="{{ '/scripts/scale.fix.js' | relative_url }}"></script>
+</body>
+
+</html>

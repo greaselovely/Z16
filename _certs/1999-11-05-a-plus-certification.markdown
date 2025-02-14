@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: cert
 title: "A Plus Certification"
 date: 1999-11-05 00:00:00 -0600
 categories: certs
