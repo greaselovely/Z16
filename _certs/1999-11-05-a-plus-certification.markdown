@@ -16,6 +16,3 @@ CompTIA A+ Certification
 New Horizons Certificate of Completion for classes that I participated in at their DTC office.
 
 ---
-
-
-Other Posts You May Want To Cover in Syrup:
