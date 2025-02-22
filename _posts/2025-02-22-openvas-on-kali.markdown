@@ -66,7 +66,7 @@ sudo pg_upgradecluster 16 main
 Error: target cluster 17/main already exists
 ```
 
-Ok, let's get rid of 17 and drop it like it's <redacted>
+Ok, let's get rid of 17 and drop it like it's a dumb lyric from a dumb song.
 
 `sudo pg_dropcluster 17 main --stop`
 
