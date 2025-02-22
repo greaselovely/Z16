@@ -7,7 +7,7 @@ tags: openvas
 ---
 Today I decided it was time to take a slightly more proactive approach to vulnerability scanning my network at home.  
 
-Like most I have a IOT, and while I don't think I win the aware for most ridiculous amount of gear, I'm no slouch either.  I also have invested in Control4 for some home automation, and Home Assistant for other integrations.  Now, I know I could do some of the things that Control4 does with a little more effort, but I like how it works for some of my solutions.  And while it's a black box with a partner holding the keys, for now I live with it.  
+Like most I have IOT, and while I don't think I win the award for most ridiculous amount of gear, I'm no slouch either.  I also have invested in Control4 for some home automation, and Home Assistant for other integrations.  Now, I know I could do some of the things that Control4 does with a little more effort, but I like how it works for some of my solutions.  And while it's a black box with a partner holding the keys, for now I live with it.  
 
 But I've been growing angry at the idea that I'm no longer in control of software upgrades, and the partner doesn't give a damn if there's new CVEs in the software / modules in use.  That's not their expertise and so I'm going to do a bit more work on that on my own.
 
@@ -19,12 +19,15 @@ So the setup I have is simple.  A Kali VM on Proxmox that I have had for a while
 
 `sudo reboot`
 
-Referencing the setup from Greenbone's Github page: `https://greenbone.github.io/docs/latest/22.4/kali/index.html`
+Referencing the setup from Greenbone's Github page: 
+`https://greenbone.github.io/docs/latest/22.4/kali/index.html`
 
 `sudo apt install gvm`
+
 This ran fine, no problem!  Nice.
 
 Next step, let's get it operational 
+
 `sudo gvm-setup`
 
 No joy
@@ -56,6 +59,7 @@ First, stop PostrgreSQL.
 `sudo systemctl stop postgresql`
 
 I attempted to upgrade to 17 without thinking it through.  Don't be me.
+
 ```
 sudo pg_upgradecluster 16 main
 
@@ -63,12 +67,15 @@ Error: target cluster 17/main already exists
 ```
 
 Ok, let's get rid of 17 and drop it like it's <redacted>
+
 `sudo pg_dropcluster 17 main --stop`
 
 Let's now take the default version of 16 and upgrade it.
+
 `sudo pg_upgradecluster 16 main`
 
 This is going to run a bit so let it do its thing.  Once it's done, you should see this:
+
 ```
 Success. Please check that the upgraded cluster works. If it does,
 you can remove the old cluster with
@@ -76,9 +83,11 @@ you can remove the old cluster with
 ```
 
 My friend told me I should so I did!
+
 `pg_dropcluster 16 main`
 
 Now, do this!
+
 ```
 pg_lsclusters
 
@@ -106,7 +115,7 @@ It's going to do a lot of things to get it operational, here's an edited output 
 
 [>] Creating GVM's certificate files
 
-~ removed for brevity
+~ truncated
 
 [*] Creating extension pg-gvm
 CREATE EXTENSION
@@ -115,7 +124,7 @@ CREATE EXTENSION
 [*] Creating user admin for gvm
 [*] Please note the generated admin password
 
-~ removed for brevity
+~ truncated
 
 [*] Checking Default scanner
 [*] Modifying Default Scanner
@@ -158,7 +167,8 @@ sudo systemctl daemon-reload
 sudo systemctl restart gsad
 ```
 
-Now, here's the thing, the above commands were taken from their page as of this writing.  However, looking at the file itself, the file does not contain the `=` sign.  
+Now, here's the thing, the above commands were taken from their page as of this writing.  
+However, looking at the file itself, the file does not contain the `=` sign.  
 
 If you want to be lazy like me, here's a one-liner to edit and restart for you.
 
@@ -166,7 +176,8 @@ If you want to be lazy like me, here's a one-liner to edit and restart for you.
 
 Access it from a remote machine if nothing went wrong!
 
-![OpenVASRemoteLogin] ({{ site.baseurl }}/images/OpenVASRemoteLogin.png "OpenVASRemoteLogin")
+![OpenVASRemoteLogin]({{ site.baseurl }}/images/OpenVASRemoteLogin.png "OpenVASRemoteLogin")
+
 
 Hell yeah.  Now scan the network and resolve the CVEs!
 
