@@ -11,6 +11,6 @@ It was also a requirement of the PSP entry to be technically vetted by technical
 
 ![ImageTitleExample]({{ site.baseurl }}/images/Brocade_AC_PSP_Clean.png "Image Title Example")
 
-I'd like to say that this resulted in us getting more business based on our capability.  I'd like to say that this gave us more business in terms of new customer referrals from Brocade.  I'd like to say that customers cared about this.  I'd like to say that Brocade didn't steal business away from us after being referred to us by the very same company.  I'd like to say that Brocade didn't protect us for certain large opportunities that they knew we were in on `cough Colorado College cough`.
+I'd like to say that this resulted in us getting more business based on our capability.  I'd like to say that this gave us more business in terms of new customer referrals from Brocade.  I'd like to say that customers cared about this.  I'd like to say that Brocade didn't steal business away from us after being referred to us by the very same company.  I'd like to say that Brocade protected us for certain large opportunities that they knew we were in on `cough Colorado College cough`.
 
 Nope.  None of that happened.  But I was proud nonetheless.
