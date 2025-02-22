@@ -5,7 +5,7 @@ date: 2018-01-01 00:00:00 -0600
 categories: certs
 ---
 
-After Brocade purchased Foundry, and many years after they finally got their partner program squared away, they created the PSP program.  The Professional Services Parnter program, which recognized specific partners that could deliver Pro Services (design, implementation, administration, integration).  This ended up being an 'invite only' list, you couldn't request access to it. The teams in various territories voted on which partners were allowed in on the list and I was extremely surprised to find out that we were invited.
+After Brocade purchased Foundry, and many years after they finally got their partner program squared away, they created the PSP program.  The Professional Services Partner program, which recognized specific partners that could deliver Pro Services (design, implementation, administration, integration).  This ended up being an 'invite only' list, you couldn't request access to it. The teams in various territories voted on which partners were allowed in on the list and I was extremely surprised to find out that we were invited.
 
 It was also a requirement of the PSP entry to be technically vetted by technical staff at Brocade.  So somehow we passed and were given this.  The date on this post is made up because there isn't a date on this certificate and I can't remember when we received it.
 
