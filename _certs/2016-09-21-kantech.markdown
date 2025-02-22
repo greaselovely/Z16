@@ -1,0 +1,13 @@
+---
+layout: cert
+title: "Kantech"
+date: 2016-09-21 00:00:00 -0600
+categories: certs
+---
+
+I started to dabble into physical security at some point.  The goal was to expand our business' solutions offering.
+
+This was for an access control system.
+
+![Kantech]({{ site.baseurl }}/images/Kantech_AC_2016.png "Kantech")
+
