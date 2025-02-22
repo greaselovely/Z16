@@ -20,6 +20,7 @@ So the setup I have is simple.  A Kali VM on Proxmox that I have had for a while
 `sudo reboot`
 
 Referencing the setup from Greenbone's Github page: 
+
 `https://greenbone.github.io/docs/latest/22.4/kali/index.html`
 
 `sudo apt install gvm`
@@ -56,6 +57,7 @@ Ver Cluster Port Status Owner    Data directory              Log file
 But as the error above indicates, version 16 is my default.  And becuase my GAF is low, I don't care about keeping 16.  Let's ravage this thing as if it were a lone pillow in a bachelor's one room apartment.
 
 First, stop PostrgreSQL.
+
 `sudo systemctl stop postgresql`
 
 I attempted to upgrade to 17 without thinking it through.  Don't be me.
