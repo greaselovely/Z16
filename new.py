@@ -17,13 +17,25 @@ def create_post(directory, title, date_str):
     filename_title = title.lower().replace(' ', '-')
     filename = os.path.join(directory, f"{date_str}-{filename_title}.markdown")
 
+    # Determine layout and category based on directory
+    if directory == "_certs":
+        layout = "cert"
+        category = "certs"
+    elif directory == "_posts":
+        layout = "post"
+        category = "blog"
+    else:
+        layout = "post"
+        category = "blog"  # Default for any other directories
+
     front_matter = (
         "---\n"
-        "layout: post\n"
+        f"layout: {layout}\n"
         f'title: "{title}"\n'
         f"date: {post_date.strftime('%Y-%m-%d %H:%M:%S')} -0600\n"
-        "categories: blog\n"
-        "---\n\n"
+        f"categories: {category}\n"
+        "---\n\n\n\n"
+        "![ImageTitleExample]({{ site.baseurl }}/images/image_name_here.png \"Image Title Example\")\n\n"
     )
 
     # If this is the _posts directory, add extra content
@@ -41,7 +53,7 @@ def create_post(directory, title, date_str):
 def get_validated_input(prompt, validator, default=None, required=True):
     """Prompt the user until they provide a valid input based on the validator function."""
     while True:
-        user_input = input(f"{prompt} [{default}]: ").strip()
+        user_input = input(f"{prompt} [{default}]: ").strip() if default else input(f"{prompt}: ").strip()
         if not user_input and default is not None:
             return default  # Use the default if the user just presses Enter
         if not user_input and not required:
