@@ -7,13 +7,13 @@ categories: blog
 
 ## My Initial Career and Transition to IT
 
-When I moved to Denver from Roswell in October of 1993, I got a job within a month working at the AMC Colorado Plaza 6 theater at S Colorado Blvd and Alamda.  It has been a 24 Hour Fitness for a long time now.  I worked as a Supervisor and a Projectionist there for a while.  All this while I prepared to start school Spring of the following year.   
+When I moved to Denver from Roswell in October of 1993, I got a job within a month working at the AMC Colorado Plaza 6 theater at S Colorado Blvd and Alamesda.  It has been a 24 Hour Fitness for a long time now.  I worked as a Supervisor and a Projectionist there for a while.  All this while I prepared to start school Spring of the following year.   
 
-In 1994, I started to attend Colorado Institute of Art (CIA) for Music and Video Business where I got into production work within a year.  While going to school I heard of a job opportunity at a company just down the road on S Colorado that the owner of Second Spin, as music store, had opened.  This company converted film to video, scanned images and saved them digitally, and even did some very light weight video production and editing.  They had invested in a Video Toaster!
+In 1994, I started to attend Colorado Institute of Art (CIA) for Music and Video Business where I got into production work within a year.  While going to school I heard of a job opportunity at a company just down the road on S Colorado that the owner of Second Spin, a music store, had opened.  This NEW company converted film to video, scanned images and saved them digitally, and even did some very light weight video production and editing.  They had invested in a Video Toaster!
 
 ![Garth]({{ site.baseurl }}/images/videotoaster.jpg "Garth")
 
-I learned to use the Video Toaster a bit while I had down time and made some absurd edits with my own home videos from Roswell.  [Example](https://youtu.be/qsHS83ecRTU)
+I learned to use the Video Toaster a bit while I had down time and made some absurd edits with my own home videos from Roswell.  [Example](https://youtu.be/qsHS83ecRTU).  The owner of Second Spin was a real asshole and I left there within a short time.  When Second Spin eventually had to close, it couldn't have happened to a nice guy.
 
 I eventually had to leave the theater, mostly due to the shooting that happened there.  I was on duty as a supervisor and in the lobby when the morons start popping off.  The new management that came in after was gaslighting me about my reaction to it, which was absolutely nothing.  
 
