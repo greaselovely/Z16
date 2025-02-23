@@ -13,7 +13,7 @@ In 1994, I started to attend Colorado Institute of Art (CIA) for Music and Video
 
 ![Garth]({{ site.baseurl }}/images/videotoaster.jpg "Garth")
 
-I learned to use the Video Toaster a bit while I had down time and made some absurd edits with my own home videos from Roswell.  [Example](https://youtu.be/qsHS83ecRTU).  The owner of Second Spin was a real asshole and I left there within a short time.  When Second Spin eventually had to close, it couldn't have happened to a nice guy.
+I learned to use the Video Toaster a bit while I had down time and made some absurd edits with my own home videos from Roswell.  [Example](https://youtu.be/qsHS83ecRTU).  The owner of Second Spin was a real asshole and I left there within a short time.  When Second Spin eventually had to close, it couldn't have happened to a nicer guy.
 
 I eventually had to leave the theater, mostly due to the shooting that happened there.  I was on duty as a supervisor and in the lobby when the morons start popping off.  The new management that came in after was gaslighting me about my reaction to it, which was absolutely nothing.  
 
