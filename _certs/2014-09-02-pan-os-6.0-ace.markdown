@@ -1,0 +1,13 @@
+---
+layout: cert
+title: "PAN-OS 6.0 ACE"
+date: 2014-09-02 00:00:00 -0600
+categories: certs
+---
+PAN-OS 6.0 Accredited Configuration Engineer
+
+I guess I showed that I could turn it on.   ¯\_(ツ)_/¯
+
+
+![ACE]({{ site.baseurl }}/images/PANW_ACE_2014.png "ACE")
+

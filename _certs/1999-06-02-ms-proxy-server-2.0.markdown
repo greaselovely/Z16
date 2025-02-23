@@ -9,7 +9,7 @@ Ok, so this cert I got because it was part of the series of things that I had do
 
 ![MSProxy]({{ site.baseurl }}/images/MSProxy2_0_1999.png "MSProxy")
 
-Read this story as it relates to MS Proxy.
+Read [this story](https://greaselovely.github.io/panw-cakes/blog/2025/02/22/my-initial-career-and-transition-to-it.html){:target="blank"} as it relates to MS Proxy.
 
 
 

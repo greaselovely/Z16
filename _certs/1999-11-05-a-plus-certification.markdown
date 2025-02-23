@@ -1,11 +1,11 @@
 ---
 layout: cert
-title: "A Plus Certification"
+title: "A+ Certification"
 date: 1999-11-05 00:00:00 -0600
 categories: certs
 ---
 
-The following show the A Plus certificates that I obtained when I started my career transition from Film / Video production over to my new IT career.  It was a steep learning curve and now looking back I have forgotten more than I learned in these early days.
+The following shows the A+ certificates that I obtained when I started my career transition from Film / Video production over to my new IT career.  It was a steep learning curve and now looking back I have forgotten more than I learned in these early days.
 
 ![A Plus]({{ site.baseurl }}/images/A_Plus_Clean_1999.png "A Plus")
 
