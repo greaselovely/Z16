@@ -23,7 +23,7 @@ Turns out, Eilenn was married to a man named [Ken Seagran](https://www.imdb.com/
 
 Ken owned a little company called **Lighting Services Inc.**
 
-So, I started working at Lighting Services Inc (LSI).  Eilenn knew that I was in school still, and she offered to pay my tuition, which I gladly accepted.  I took her up on this until I realized that I was wasting my time and out collective money.  The school was teaching a lot of bullshit and I was learning more on the job that I was in school, so I quit school and worked full time.  
+So, I started working at Lighting Services Inc (LSI).  Eilenn knew that I was in school still, and she offered to pay my tuition, which I gladly accepted.  I took her up on this until I realized that I was wasting my time and our collective money.  The school was teaching a lot of bullshit and I was learning more on the job that I was in school, so I quit school and worked full time.  
 
 LSI used to be a ridiculously large sound stage and lighting company located at the corner of Alameda and Cherokee in Denver. This building prior to that was once a canning factory.  The factory used to allow trains to go into the building which presumably was for loading the trains for moving product. Stage 1 and some of the other parts of the building at that time still had the old train tracks running through it.  The building is long gone and standing in its place is a giant apartment / condo building.
 
@@ -31,7 +31,7 @@ My job at LSI involved loading trucks, moving electrical cables and lighting to 
 
 At one point, I had the opportunity to work a production out of state, where I was responsible for the grip truck and headed to Arizona by way of Moab.  I had to go through the mountains during winter with a loaded grip truck.  This is where I developed my hate for snow season combined with mountains.  
 
-This was for a commercial for a company I had not heard of before or since.  And when I tell this story out loud, I get the `ohhh...`.  The commerical was for `Shane Jeans` and was shot all in Monument Valley, and had a decent budget but very small crew.  One morning we were up early and sitting in a parking lot waiting on a helicopter to arrive so we could mount the camera in it for arial shots.  
+This was for a commercial for a company I had not heard of before or since.  And when I tell this story out loud, I get the `ohhh...`.  The commercial was for `Shane Jeans` and was shot all in Monument Valley, and had a decent budget but very small crew.  One morning we were up early and sitting in a parking lot waiting on a helicopter to arrive so we could mount the camera in it for arial shots.  
 
 I got to do a lot of cool random shit at LSI, but there was its fair share of hard labor too.
 
@@ -57,7 +57,7 @@ I'll spare many details of my recollection of the work performed even though it 
 ## Um, what?!
 "Sorry, did you say that you placed your PDC directly on the internet with only MS Proxy 2.0 to allow traffic out?"  
 
-You read what you read.  That happened.  I exercise my right to the brief ignorance I had of network security.  Almost up until I was on a friends house where they had Comcast Cable (the name may have been something different, I can't recall).  But these were the days where it was a giant broadcast domain and you could see a variety of things on the cable network, including network printers.  This is where my eyes opened, and when you start sending print jobs to printers in someone else's home, that's a thing.
+You read what you read.  That happened.  I exercise my right to the brief ignorance I had of network security.  Almost up until I was at a friends house where they had Comcast Cable (the name may have been something different, I can't recall).  But these were the days where it was a giant broadcast domain and you could see a variety of things on the cable network, including network printers.  This is where my eyes opened, and when you start sending print jobs to printers in someone else's home, that's a thing.
 
 I eventually couldn't take any more toxicity from Dean, or him yelling at his brother Jerry in front of everyone, or his constant yelling at us how we were `fucking him`, so I quit.  Went and did some brief work for a company called **Remote Broadcasting Inc (RBI)** and did some jobs where I was the Engineer In Charge (EIC) for the broadcast truck that was rented.  I shot the Mexican National Soccer Team, [Chivas de Guadalajara](https://en.wikipedia.org/wiki/C.D._Guadalajara){:target="_blank"} when they played in Colorado and then traveled to Chicago to play in Soldier Field.  I did a shoot in Casper, WY for [The Jerry Lewis MDA Labor Day Telethon](https://en.wikipedia.org/wiki/The_Jerry_Lewis_MDA_Labor_Day_Telethon){:target="_blank"}.  But it didn't last long and finally landed a job full time in IT at New Horizons.
 
