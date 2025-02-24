@@ -56,8 +56,8 @@
             <span class="post-date">{{ post.date | date: "%m-%d-%Y" }}</span>
             <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
           </ul>
-          <p><img src="{{ '/images/astronaut.png' | relative_url }}" alt=""></p>
           {% endfor %}
+          <p><img src="{{ '/images/astronaut.png' | relative_url }}" alt=""></p>
         </ul>
       </section>
     </main>
