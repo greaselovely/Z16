@@ -55,7 +55,7 @@
         {{ content }}
         <ul class="posts">
           <!-- {% assign shuffled_posts = site.posts | shuffle %} -->
-          {% for post in shuffled_posts limit:5 %}
+          <!-- {% for post in shuffled_posts limit:5 %} -->
           {% for post in site.posts limit:5 %}
           <ul>
             <span class="post-date">{{ post.date | date: "%m-%d-%Y" }}</span>
