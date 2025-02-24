@@ -51,6 +51,7 @@
     <!-- Main content area where individual page content will be injected -->
     <main>
       <section>
+        {{ post.date | date: "%m-%d-%Y" }}
         {{ content }}
         <ul class="posts">
           {% assign shuffled_posts = site.posts | shuffle %}
