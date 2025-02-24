@@ -1,8 +1,11 @@
 #!/usr/bin/env python3
-import argparse
-import datetime
 import os
 import sys
+import argparse
+import datetime
+import subprocess
+
+
 
 def valid_date(s):
     """Validate and return a YYYY-MM-DD date string."""
@@ -49,6 +52,7 @@ def create_post(directory, title, date_str):
         f.write(front_matter)
     
     print(f"Created new post: {filename}")
+    return filename
 
 def get_validated_input(prompt, validator, default=None, required=True):
     """Prompt the user until they provide a valid input based on the validator function."""
@@ -98,7 +102,11 @@ def main():
         except (ValueError, IndexError):
             print("Invalid selection. Please enter a valid number.")
 
-    create_post(chosen_dir, title, date_str)
+    filename = create_post(chosen_dir, title, date_str)
+
+    # Open the new post in the default editor
+    editor = os.getenv('EDITOR', 'code')
+    subprocess.run([editor, filename])
 
 if __name__ == "__main__":
     main()
