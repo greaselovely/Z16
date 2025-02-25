@@ -1,0 +1,31 @@
+---
+layout: default
+---
+
+<section>
+  <ul class="posts">
+    {% for post in paginator.posts %}
+    <li>
+      <span class="post-date">{{ post.date | date: "%m-%d-%Y" }}</span>
+      <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+    </li>
+    {% endfor %}
+  </ul>
+
+  <!-- Pagination Controls -->
+  <div class="pagination">
+    {% if paginator.previous_page %}
+      <a href="{{ site.baseurl }}{{ paginator.previous_page_path }}" class="prev">Previous</a>
+    {% endif %}
+
+    <span>Page {{ paginator.page }} of {{ paginator.total_pages }}</span>
+
+    {% if paginator.next_page %}
+      <a href="{{ site.baseurl }}{{ paginator.next_page_path }}" class="next">Next</a>
+    {% endif %}
+  </div>
+  <p>
+    <img src="{{ site.baseurl }}/images/astronaut.png" alt="Astronaut">
+  </p>
+  
+</section>

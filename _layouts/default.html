@@ -1,3 +1,4 @@
+<!-- default.html -->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -30,14 +31,13 @@
 
         <a href="{{ '/certs' | relative_url }}">My Certificates
           <small>Smarty Pants</small></a>
-          
+
         <a href="https://github.com/greaselovely/" target="_blank"> View my Projects on GitHub
           <small>greaselovely</small></a>
 
         <a href="http://kineticlull.com/" target="_blank"> My External Dynamic List Manager
           <small>KineticLull</small></a>
         
-
         <a href="https://www.youtube.com/@greaselovely" target="_blank">VLA Time Lapse Videos
           <small>YouTube</small></a>
         
@@ -51,18 +51,7 @@
 
     <!-- Main content area where individual page content will be injected -->
     <main>
-      <section>
         {{ content }}
-        <ul class="posts">
-          {% for post in site.posts %}
-          <ul>
-            <span class="post-date">{{ post.date | date: "%m-%d-%Y" }}</span>
-            <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-          </ul>
-          {% endfor %}
-          <p><img src="{{ '/images/astronaut.png' | relative_url }}" alt=""></p>
-        </ul>
-      </section>
     </main>
     <footer>
       <p>
