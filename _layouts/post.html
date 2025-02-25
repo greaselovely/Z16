@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8" />
-  <title>{{ site.title }}</title>
+  <title>{{ page.title }} | {{ site.title }}</title>
   <meta name="viewport" content="width=device-width" />
   <meta http-equiv="X-UA-Compatible" content="chrome=1" />
 
@@ -51,17 +51,24 @@
     <!-- Main content area where individual page content will be injected -->
     <main>
       <section>
-        {{ content }}
+        <h1>{{ page.title }}</h1>
+        <h3>{{ page.date | date: "%m-%d-%Y" }}</h3>
+        <div class="post-content">
+          {{ content }}
+        </div>
+
+        <h2>Recent Posts</h2>
         <ul class="posts">
           {% for post in site.posts limit:5 %}
-          <ul>
+          <li>
             <span class="post-date">{{ post.date | date: "%m-%d-%Y" }}</span>
             <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-          </ul>
+          </li>
           {% endfor %}
         </ul>
       </section>
     </main>
+    
     <footer>
       <p>
         <button class="material-symbols-sharp" id="theme-toggle" title="Toggle dark mode"
