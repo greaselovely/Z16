@@ -19,14 +19,14 @@ And of course the simplest of a DDG will get the necessary information in my han
 
 So, I did a quick video look up and saw how quick it was.  Now, my only complaint, which is barely that, is that Firefox can't be used for the install.  And there may be other ways to do this, I just haven't look it up.  Chrome is the supported browser for today.
 
--Get them powered up via the micro-usb connector to your machine.  
--Go to the [website](https://ratgdo.github.io/esphome-ratgdo/){:target=blank}
--Figure out which opener you have, and choose it on the page
--Figure out which RATGDO board you have, and choose it on the page
--Click the Connect button, follow the instructions on the pop up and install the software to the board
--Once that is done, it will then help you get it connected to your wireless network
--Once that is done, it will ask you what SSID to connect it to
--Once that is done, it will walk you through adding it to Home Assistant
+- Get them powered up via the micro-usb connector to your machine.  
+- Go to the [website](https://ratgdo.github.io/esphome-ratgdo/){:target=blank}
+- Figure out which opener you have, and choose it on the page
+- Figure out which RATGDO board you have, and choose it on the page
+- Click the Connect button, follow the instructions on the pop up and install the software to the board
+- Once that is done, it will then help you get it connected to your wireless network
+- Once that is done, it will ask you what SSID to connect it to
+- Once that is done, it will walk you through adding it to Home Assistant
 
 If you have the MyQ with the yellow learn button like I do, then it's stupid simple.  There is included a small guage three conductor with connector that comes with it.  This is all you need.  The colors, red, white and black align with the colors on the opener's terminals that the sensors and button(s) connect to.  Mount your RATGDO, plug it in to a USB power supply, and plug in those wires. Red > red, white > white, black > black.
 
