@@ -32,7 +32,7 @@ If you have the MyQ with the yellow learn button like I do, then it's stupid sim
 
 Then go play with Home Assistant.  I setup a new dashboard with only a couple of buttons.  Setup notifications via the app to all registered mobile devices (the `notify.notify` was the secret).  If you want custom / interesting notifications and you don't know all the options, your favorite AI chatbot will help you with creating a YAML for it.
 
-The features that RATGDO bring compared to what MyQ wanted for their limited ad-ladened app is amazing.  My new favorite is the ability to open the garage door to a specific height that I want instead of a full travel using the slider within Home Assistant.  Dude!  I can also turn the light on and off via the dashboard.  Something that MyQ never gave you, but the opener clearly has the functionality to do so.  
+The features that RATGDO bring compared to what MyQ wanted for their limited ad-ladened app is amazing.  My new favorite is the ability to open the garage door to a specific height that I want, instead of a full travel, using the slider within Home Assistant.  Dude!  I can also turn the light on and off via the dashboard.  Something that MyQ never gave you, but the opener clearly has the functionality to support.
 
 I got this working in less than 90 minutes.  This includes me submitting a form to delete my account from Chamberlain.
 
