@@ -20,7 +20,7 @@ And of course the simplest of a DDG will get the necessary information in my han
 So, I did a quick video look up and saw how quick it was.  Now, my only complaint, which is barely that, is that Firefox can't be used for the install.  And there may be other ways to do this, I just haven't look it up.  Chrome is the supported browser for today.
 
 - Get them powered up via the micro-usb connector to your machine.  
-- Go to the [website](https://ratgdo.github.io/esphome-ratgdo/){:target=blank}
+- Go to the [website](https://ratgdo.github.io/esphome-ratgdo/){:target="blank"}
 - Figure out which opener you have, and choose it on the page
 - Figure out which RATGDO board you have, and choose it on the page
 - Click the Connect button, follow the instructions on the pop up and install the software to the board
