@@ -28,7 +28,7 @@ So, I did a quick video look up and saw how quick it was.  Now, my only complain
 -Once that is done, it will ask you what SSID to connect it to
 -Once that is done, it will walk you through adding it to Home Assistant
 
-If you have the MyQ with the yellow learn button like I do, then it's stupid simple.  There is the include small guague three wire with connector that comes with it.  This is all you need.  The colors, red, white and black align with the colors on the opener's terminals that the sensors and button(s) connect to.  Mount your RATGDO, plug it in to a USB power supply, and plug in those wires. Red > red, white > white, black > black.
+If you have the MyQ with the yellow learn button like I do, then it's stupid simple.  There is included a small guage three conductor with connector that comes with it.  This is all you need.  The colors, red, white and black align with the colors on the opener's terminals that the sensors and button(s) connect to.  Mount your RATGDO, plug it in to a USB power supply, and plug in those wires. Red > red, white > white, black > black.
 
 Then go play with Home Assistant.  I setup a new dashboard with only a couple of buttons.  Setup notifications via the app to all registered mobile devices (the `notify.notify` was the secret).  If you want custom / interesting notifications and you don't know all the options, your favorite AI chatbot will help you with creating a YAML for it.
 
