@@ -7,7 +7,7 @@ categories: blog
 
 If you're like me and like nerd things and IOT devices then you may have bought the Chamberlain MyQ garage door opener for the ability to get notified, control the door remotely, and maybe even spent the duckets on the one with the camera.
 
-I, like many other people, got the rug pulled out from under us when Chamberlain decided to tell their more technical user base to suck it.  A large majority of their user base, I guarantee doesn't care about using home automation or other interesting things.  There's a very small part of their user base that likes to play, and I'm one of them. 
+I, like many other people, got the rug pulled out from under us when Chamberlain decided to tell their more technical user base to suck it.  A large majority of their user base, I guarantee, doesn't care about using home automation or other interesting things.  There's a very small part of their user base that likes to play, and I'm one of them. 
 
 What Chamberlain did was remove API access to their backend.  That shutdown access via their cloud server farm for this arguably small user base.  
 
