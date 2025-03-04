@@ -7,7 +7,5 @@ categories: certs
 I was working for Leidos at the time and their customer required a Security+ certification. I bought the ce (Continuous Education) but the work to constantly track the hours was a pain.  Meh.
 
 
-Image Coming Soon
-
-<!-- ![ImageTitleExample]({{ site.baseurl }}/images/image_name_here.png "Image Title Example") -->
+![SecPlus]({{ site.baseurl }}/images/CompTIASecPlus-2021.png "CompTIA Sec+")
 
