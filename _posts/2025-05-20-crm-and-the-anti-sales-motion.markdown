@@ -7,7 +7,7 @@ categories: crm
 
 ### When a CRM Vendor Tells You to Try Someone Else
 
-I recently revisited WORKetc while evaluating PSA/CRM platforms for **Zero One Six Security, LLC**. Years ago, they seemed like a promising all-in-one solution, so I figured it was worth seeing how far they’ve come. Spoiler alert: not far.
+I recently revisited WORKetc while evaluating PSA/CRM platforms for **Zero One Six Security, LLC**. They seemed like a promising all-in-one solution, so I figured it was worth seeing how far they’ve come. Spoiler alert: not far.
 
 I reached out with a basic presales inquiry — nothing wild. Just the standard: *“Can I talk to someone to confirm that the platform supports the workflows I need before I waste time in a trial?”* Seems reasonable, right?
 
