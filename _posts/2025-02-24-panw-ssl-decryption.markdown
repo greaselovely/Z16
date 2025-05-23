@@ -2,7 +2,7 @@
 layout: post
 title: "PANW SSL Decryption"
 date: 2025-02-24 00:00:00 -0600
-categories: ssl decryption panw ngfw
+categories: blog
 ---
 
 

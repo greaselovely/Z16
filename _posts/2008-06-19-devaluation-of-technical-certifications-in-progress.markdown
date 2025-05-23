@@ -2,7 +2,7 @@
 layout: post
 title: "Devaluation of Technical Certifications In Progress"
 date: 2008-06-19 00:00:00 -0600
-categories: random
+categories: blog
 ---
 
 I received this email as a member of a Juniper group within Google, and I was a bit blown away by the fact that someone, first of all, would be willing to pay someone else to get them certified. But then I realized after some thought, while consulting with some of the knuckleheads that I have had to work with that have > 5 certifications all from different vendors, and couldn't possibly due the work they were hired for. Honestly. I've seen it and been dumbfounded by the amount of coin they were pulling in and then they would have me do the work. Awesome.

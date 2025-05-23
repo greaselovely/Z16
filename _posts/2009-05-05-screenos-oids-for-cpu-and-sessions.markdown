@@ -2,7 +2,7 @@
 layout: post
 title: "ScreenOS OIDs for CPU and Sessions"
 date: 2009-05-05 00:00:00 -0600
-categories: juniper netscreen
+categories: blog
 ---
 
 In case you are looking for them, here are the OID's for CPU and sessions within ScreenOS.

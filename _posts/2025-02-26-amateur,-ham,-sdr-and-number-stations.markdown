@@ -2,7 +2,7 @@
 layout: post
 title: "CB, HAM, SDR and Number Stations"
 date: 2025-02-26 00:00:00 -0600
-categories: amateur radio
+categories: blog
 ---
 # CB Radios
 Growing up in the desert of NM didn't come with a lot of perks.  No one was in charge of my entertainment and did we ever quickly realize that.  So there's a lot of trouble a person can get in if they wanted to.  And there's ton of opportunity if you have an extremely curious mind. 

@@ -2,7 +2,7 @@
 layout: post
 title: "Cisco Catalyst 5509 Coffee Table"
 date: 2007-11-09 00:00:00 -0600
-categories: Crisco
+categories: blog
 ---
 
 ![Crisco]({{ site.baseurl }}/images/DSC_1405.jpg "Crisco")

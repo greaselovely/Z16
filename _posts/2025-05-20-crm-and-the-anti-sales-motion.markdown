@@ -2,7 +2,7 @@
 layout: post
 title: "CRM and The Anti-Sales Motion"
 date: 2025-05-20 00:00:00 -0600
-categories: crm
+categories: blog
 ---
 
 ### When a CRM Vendor Tells You to Try Someone Else

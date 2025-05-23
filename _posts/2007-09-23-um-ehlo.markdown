@@ -2,7 +2,7 @@
 layout: post
 title: "Um, EHLO?!"
 date: 2007-09-23 14:45:14 -0600
-categories: SMTP Email
+categories: blog
 ---
 
  So, I have to say what a drag it is to have 20+ .pst files from an Exchange 2000 server and having no way to import said .pst files at the server level into Exchange 2007.

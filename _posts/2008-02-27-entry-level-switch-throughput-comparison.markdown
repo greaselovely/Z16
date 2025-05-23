@@ -2,7 +2,7 @@
 layout: post
 title: "Entry Level Switch Throughput Comparison"
 date: 2008-02-27 00:00:00 -0600
-categories: switch
+categories: blog
 ---
 
 

@@ -2,7 +2,7 @@
 layout: post
 title:  "Home Directories Gone Wild"
 date:   2009-07-08 15:07:37 -0700
-categories: microsoft windows
+categories: blog
 ---
 
 Ok, Windows Admins who don't know this, listen up.

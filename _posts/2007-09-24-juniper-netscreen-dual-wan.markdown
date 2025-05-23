@@ -2,7 +2,7 @@
 layout: post
 title:  "NetScreen SSG 20 Dual WAN"
 date:   2007-09-24 15:07:37 -0700
-categories: Juniper NetScreen
+categories: blog
 ---
 
 
