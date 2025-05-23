@@ -55,7 +55,7 @@
         <ul class="certs">
           {% for cert in site.certs %}
           <li>
-            <span class="cert-date">{{ cert.date | date: "%m-%d-%Y" }}</span> -> 
+            <span class="cert-date">{{ cert.date | date: "%m-%d-%Y" }}</span> -
             <a href="{{ cert.url | relative_url }}">{{ cert.title }}</a>
           </li>
           {% endfor %}
