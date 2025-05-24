@@ -1,0 +1,86 @@
+---
+layout: post
+title: "Espanso!"
+date: 2025-05-24 00:00:00 -0600
+categories: blog
+---
+## Making Everyday Typing Easier with Espanso
+
+Espanso is a cross-platform text expander that runs quietly in the background and helps you save time on repetitive typing. It works in the terminal, browsers, editors, and more, and can be customized to fit the way you work.
+
+Here are a few simple examples I use that have made a noticeable difference in my day-to-day tasks.
+
+---
+
+### Insert the Current Time with `:now`
+
+Sometimes I just want to drop the current time into a note or a log. Instead of switching apps or checking the clock, I use this:
+
+```yaml
+- trigger: :now
+  replace: "{{mytime}}"
+  vars:
+    - name: mytime
+      type: date
+      params:
+        format: "%l:%M"
+```
+
+Now when I type `:now`, it inserts the current time, like ` 3:42`. The format is customizable, so you can include the date, seconds, or anything else you need. It's a simple quality-of-life improvement.
+
+---
+
+### Fix Common Typos
+
+I often type “pign” instead of “ping” when I'm moving quickly. Rather than slow down or fix it manually every time, I set this up:
+
+```yaml
+- trigger: pign
+  replace: ping
+  word: true
+```
+
+This replaces “pign” with “ping” only when it's typed as a full word. It won't change anything inside other words, which keeps it predictable. This works great in the terminal or anywhere else you type.
+
+---
+
+### Replace Shell Aliases with Espanso
+
+You can always create aliases in your shell config, but those don't carry over to new machines or different environments unless you bring your dotfiles with you. Espanso gives you a simpler option that works system-wide.
+
+Here’s an example:
+
+```yaml
+- trigger: cls
+  replace: clear
+```
+
+Now I can type `cls` and get `clear`, which is handy if you're used to older command habits.
+
+You can also create longer command shortcuts:
+
+```yaml
+- trigger: serve
+  replace: python3 -m http.server 8000
+```
+
+Or:
+
+```yaml
+- trigger: gco
+  replace: git checkout 
+```
+
+This makes it easy to reduce repetitive typing without relying entirely on shell configuration. Since it works across applications, you can use these shortcuts wherever you're typing.
+
+---
+
+### Simple, Quiet Productivity
+
+Espanso doesn't need a huge setup to be useful. A few practical entries can save time, reduce errors, and keep you moving. Whether you're inserting timestamps, cleaning up typos, or expanding shell commands, it's a helpful tool to have running in the background.
+
+There’s a lot more it can do, like pulling from the clipboard, filling out templates, or inserting dynamic content. But even with just a few entries, it’s worth using.
+
+---
+
+Other Posts You May Want To Cover in Syrup:
