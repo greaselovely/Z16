@@ -18,7 +18,7 @@ Sometimes I just want to drop the current time into a note or a log. Instead of 
 
 ```yaml
 - trigger: :now
-  replace: "{{mytime}}"
+  replace: "\{\{mytime\}\}"
   vars:
     - name: mytime
       type: date
