@@ -22,7 +22,8 @@ From an operational standpoint, this kind of tool is helpful when you need audit
 Because it’s open source and runs entirely in your own environment, you have full control. You can adjust how the API works, add integrations with ticketing systems, or change how permissions are structured, all without depending on a third party.
 
 GitHub repo: [https://github.com/greaselovely/KineticLull](https://github.com/greaselovely/KineticLull)
-Docs and info: [http://kineticlull.com](http://kineticlull.com)
+
+Other Info: [http://kineticlull.com](http://kineticlull.com)
 
 ---
 
